@@ -5,11 +5,12 @@ html, body{
     font-family: 'Aleo', serif;
 }
 .menuHeader{
-    padding: 20px 20px;
+    padding: 5px 5px;
    background-color:#53C2C2;
     background-color: rgba(52, 53, 9, 0.247); 
 }
 .menuHeader nav{
+    padding-bottom: 5px;
     padding-right: 20px;
     letter-spacing: 5px;
     text-align: right;
@@ -68,10 +69,14 @@ header i:hover{
     padding-bottom: 20px;
     text-align: center;
 }
+footer{
+    padding-top: 60px;
+
+}
 footer ul{
     background-color: #53C2C2;
-    padding-top: 45px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     list-style: none;
     margin: 0;
     word-spacing: 30px;
