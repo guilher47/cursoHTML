@@ -2,7 +2,6 @@ html, body{
     background-color: #95CCCC;
     margin: 0;
     padding: 0;
-    
 }
 .menuHeader{
    padding: 5px 5px;
@@ -54,10 +53,9 @@ header i:hover{
 .divContato input{
     margin-top: 15px;
     margin-right: 15px;
-    border-radius: 15px;
+    border-radius: 8px;
     height: 25px;
-    width: 400px;
-    
+    width: 400px;   
 }
 .divContato label{
     margin-left: 20px;
