@@ -2,12 +2,12 @@ html, body{
     background-color: #95CCCC;
     margin: 0;
     padding: 0;
-    font-family: 'Aleo', serif;
+    
 }
 .menuHeader{
-    padding: 5px 5px;
+   padding: 5px 5px;
    background-color:#53C2C2;
-    background-color: rgba(52, 53, 9, 0.247); 
+   background-color: rgba(52, 53, 9, 0.247); 
 }
 .menuHeader nav{
     padding-bottom: 5px;
@@ -71,7 +71,6 @@ header i:hover{
 }
 footer{
     padding-top: 60px;
-
 }
 footer ul{
     background-color: #53C2C2;
@@ -87,4 +86,7 @@ i:hover{
 }
 footer a{
     color: black;
+}
+#instagram{
+    align-content: center;
 }
