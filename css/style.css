@@ -1,12 +1,12 @@
 html, body{
-    background: linear-gradient(90deg, rgba(78,78,68,1) 0%, rgba(32,32,28,1) 0%, rgba(14,14,12,1) 42%, rgba(0,0,0,1) 90%);
+    background-color: #95CCCC;
     margin: 0;
     padding: 0;
     font-family: 'Aleo', serif;
 }
 .menuHeader{
     padding: 20px 20px;
-    background: linear-gradient(90deg, rgba(78,78,68,1) 6%, rgba(32,32,28,1) 50%, rgba(14,14,12,1) 70%, rgba(0,0,0,1) 90%);
+   background-color:#53C2C2;
     background-color: rgba(52, 53, 9, 0.247); 
 }
 .menuHeader nav{
@@ -22,7 +22,8 @@ header i:hover{
     transition: 0.5s
 }
 #imgDodge{
-    border-style: groove;
+    border-style: none;
+    border-radius: 20px;
     margin-top: 10%;
     margin-left: 15%;
     margin-right: 5%;
@@ -38,8 +39,9 @@ header i:hover{
     font-size: 20px;
 }
 .divContato{
-    background-color:white;
+    background-color: white;
     border-style: none;
+    border-radius: 20px;
     box-shadow: white;
     padding-top: 20px;
     padding-left: 100px;
@@ -67,7 +69,7 @@ header i:hover{
     text-align: center;
 }
 footer ul{
-    background: linear-gradient(90deg, rgba(78,78,68,1) 6%, rgba(32,32,28,1) 50%, rgba(14,14,12,1) 70%, rgba(0,0,0,1) 90%);
+    background-color: #53C2C2;
     padding-top: 45px;
     padding-bottom: 40px;
     list-style: none;
