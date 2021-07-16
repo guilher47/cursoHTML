@@ -76,9 +76,6 @@ header i:hover{
     padding-bottom: 20px;
     text-align: center;
 }
-footer{
-    padding-top: 60px;
-}
 footer ul{
     background-color: #53C2C2;
     padding-top: 30px;
@@ -93,9 +90,6 @@ i:hover{
 }
 footer a{
     color: black;
-}
-#instagram{
-    align-content: center;
 }
 .divButton{
     padding-top: 50px;
