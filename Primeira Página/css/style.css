@@ -1,42 +1,43 @@
-html, body{
+body{
     background-color: #95CCCC;
     margin: 0;
     padding: 0;
+    font-family: 'Rammetto One', cursive;
 }
 .menuHeader{
-   padding: 5px 5px;
+   width: 100%;
+   margin: 0;
+   padding: 0;
    background-color:#53C2C2;
-   background-color: rgba(52, 53, 9, 0.247); 
 }
 .menuHeader nav{
-    padding-bottom: 5px;
-    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     letter-spacing: 5px;
     text-align: right;
     word-spacing: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
-header i:hover{
+.menuHeader nav li{
+    list-style: none;
+    display: inline-block;
+}
+.content{
+    background-image: url(../image/computer-1209641_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 70px;
+    margin: 0;
+}
+.Intro{
     color: white;
-    transition: 0.5s
+    text-align: center;
+    height: 100%;
 }
-#imgDodge{
-    border-style: none;
-    border-radius: 20px;
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 5%;
-    margin-bottom: 10%;
-    max-width: 70%;
-    max-height: 70%;
-}
-#imgDodge:hover{
-   -webkit-transform: scale(1.1);
-   -moz-transform: scale(1.1);
-   -o-transform: scale(1.1);
-   -ms-transform: scale(1.1);
-    transform: scale(1.1);
+.divInputs{
+    padding-top: 30px;
+
 }
 .Contato{
     display: flex;
@@ -105,7 +106,7 @@ button{
     border-style: none;
     border-radius: 10px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rammetto One', cursive;
 }
 button:hover{
     background-color:#336664;
