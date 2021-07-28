@@ -5,6 +5,8 @@ body{
     font-family: 'Rammetto One', cursive;
 }
 .menuHeader{
+   display: flex;
+   justify-content: flex-end;
    width: 100%;
    margin: 0;
    padding: 0;
@@ -12,7 +14,7 @@ body{
 }
 .menuHeader nav{
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 5px;
     letter-spacing: 5px;
     text-align: right;
     word-spacing: 5px;
@@ -24,7 +26,7 @@ body{
     display: inline-block;
 }
 .content{
-    background-image: url(../image/computer-1209641_1280.jpg);
+    background-image: url(../image/computer-1873831_1280.png);
     background-size: cover;
     background-position: center;
     padding: 70px 70px;
@@ -35,15 +37,34 @@ body{
     text-align: center;
     height: 100%;
 }
-.divInputs{
-    padding-top: 30px;
+.divTecnology{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    
+}
+.divTecnology #Titletech{
+    font-size: 30px;
+}
+.divLinguagens{
 
+    display: flex;
+    justify-content: space-around;
+}
+.divInputs{
+    padding-top: 40px;
 }
 .Contato{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
     font-size: 20px;
 }
 .divContato{
