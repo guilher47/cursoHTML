@@ -33,3 +33,33 @@
 .ImgMovel img{
     padding-right: 15px;
 }
+#ContainerNet{
+    padding-top: 50px;
+}
+.TitleInternet{
+    text-align: center;
+}
+.TitleFibra h3{
+    padding-top: 40px;
+    text-align: center;
+}
+.ImgFibra{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.ImgFibra img{
+    padding-right: 15px;
+}
+.TitleBanda h3{
+    padding-top: 40px;
+    text-align: center;
+}
+.ImgBanda{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.ImgBanda img{
+    padding-right: 15px;
+}
