@@ -1,0 +1,35 @@
+.carousel{
+    height: 500px;
+}
+#ContainerTel{
+    border-style: solid;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+.TitleTel h1{
+    text-align: center;
+}
+.TitleFixa h3{
+    padding-top: 40px;
+    text-align: center;
+}
+.ImgTelefone{
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.ImgTelefone img{
+    padding-right: 15px;
+}
+.TitleMovel h3{
+    padding-top: 40px;
+    text-align: center;
+}
+.ImgMovel{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.ImgMovel img{
+    padding-right: 15px;
+}
