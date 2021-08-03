@@ -1,7 +1,12 @@
+body{
+    background-color: #BBC0ED;
+}
 .carousel{
     height: 500px;
 }
 #ContainerTel{
+    background-color: white;
+    border-color: white;
     border-style: solid;
     border-radius: 10px;
     padding-bottom: 50px;
@@ -38,7 +43,9 @@
 }
 #ContainerNet{
     margin-top: 30px;
+    background-color: white;
     border-style: solid;
+    border-color: white;
     border-radius: 10px;
     
     padding-bottom: 50px;
@@ -74,7 +81,10 @@
     padding-right: 15px;
 }
 #ContainerWifi{
+    background-color: white;
+    border-color: white;
     border-style: solid;
+    border-radius: 10px;
     margin-top: 30px;
    
 }
@@ -89,4 +99,27 @@
 }
 .ImgWifi img{
     padding-right: 15px;
+}
+#ContainerContato{
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: white;
+    margin-top: 30px;
+}
+#ContainerContato h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.DivContato{
+   padding-left: 5px;
+   justify-content: center;
+   align-items: center;
+}
+.DivContato #Email, #Nome, #Telefone{
+    
+    width: 350px;
+    box-shadow: white;
 }
