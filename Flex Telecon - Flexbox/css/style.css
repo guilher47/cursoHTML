@@ -1,0 +1,99 @@
+html, body{
+    background-color: #BBC0ED;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu do site*/
+nav .DivMenu ul li{
+    display: inline;
+}
+
+.DivMenu{
+    margin: 0;
+    padding: 0;
+}
+nav .DivMenu ul{
+    margin: 0;
+    background-color: blue;
+    list-style: none;
+    text-align: right; 
+    width: 100%;   
+    position: relative;
+    padding: 30px 0px 30px;
+    color: white;
+}
+
+
+
+/* Container Telefonia */
+#ContainerTelefonia{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+
+}
+
+/* Container Internet*/
+
+#ContainerInternet{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+
+}
+
+
+/* Container Wifi*/
+
+#ContainerWifi{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+}
+
+/* Container Contato */
+
+#ContainerContato{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+
+
+}
+
+
+
+
