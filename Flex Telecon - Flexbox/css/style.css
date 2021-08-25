@@ -27,72 +27,79 @@ nav .DivMenu ul{
 
 
 /* Container Telefonia */
+
 #ContainerTelefonia{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    padding-bottom: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
+    padding-bottom: 40px;
 
 }
+
+.Telefonia{
+    flex-basis: 100%;
+    text-align: center;
+}
+
 
 /* Container Internet*/
 
 #ContainerInternet{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    padding-bottom: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
-
+    padding-bottom: 40px;
 }
+
+.Internet{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
 
 
 /* Container Wifi*/
 
 #ContainerWifi{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
-    padding-bottom: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
+    padding-bottom: 40px;
+
 }
+
+
 
 /* Container Contato */
 
-#ContainerContato{
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
-
-
-}
 
 
 
