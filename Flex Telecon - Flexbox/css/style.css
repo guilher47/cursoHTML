@@ -1,104 +1,71 @@
 html, body{
-    background-color: #BBC0ED;
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-/* Menu do site*/
-nav .DivMenu ul li{
-    display: inline;
+/* NAVBAR */
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: black;
+    color: #ffff;
+    -webkit-box-shadow: 14px 12px 42px 13px rgba(0,0,0,0.52); 
+     box-shadow: 14px 12px 42px 13px rgba(0,0,0,0.52);
 }
-
-.DivMenu{
-    margin: 0;
-    padding: 0;
-}
-nav .DivMenu ul{
-    margin: 0;
-    background-color: blue;
+.DivLinks ul{
+    display: flex;
     list-style: none;
-    text-align: right; 
-    width: 100%;   
-    position: relative;
-    padding: 30px 0px 30px;
-    color: white;
+}
+.DivLinks ul li{
+    padding: 3px;
 }
 
+/* Seção telefonia*/
 
-
-/* Container Telefonia */
-
-#ContainerTelefonia{
+.ContainerTelefonia{
+    margin: 50px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 40px;
-
-}
-
-.Telefonia{
-    flex-basis: 100%;
-    text-align: center;
-}
-
-
-/* Container Internet*/
-
-#ContainerInternet{
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 40px;
 }
 
-.Internet{
-    flex-basis: 100%;
-    text-align: center;
+.TelMóvel{
+    border: solid #f5f7fa, #c3cfe2;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 14px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    flex: 3;
+    -webkit-box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69); 
+     box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69);
+    
+}
+.TelFixa{
+    border: solid #f5f7fa, #c3cfe2;
+    border-radius: 30px;
+    padding: 30px;
+    margin: 14px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    flex: 3;
+    -webkit-box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69); 
+     box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69);
+}
+.imgTelFix img{
+    padding-right: 7px;
 }
 
-
-
-
-/* Container Wifi*/
-
-#ContainerWifi{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    background-color: white;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 40px;
-
+img{
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-
-
-/* Container Contato */
 
 
 
