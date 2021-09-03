@@ -1,7 +1,8 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
 }
 
 /* NAVBAR */
@@ -11,11 +12,12 @@ html, body{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
     box-shadow: black;
     color: #ffff;
-    -webkit-box-shadow: 14px 12px 42px 13px rgba(0,0,0,0.52); 
-     box-shadow: 14px 12px 42px 13px rgba(0,0,0,0.52);
+    font-size: 15px;
+    
 }
 .DivLinks ul{
     display: flex;
@@ -23,6 +25,7 @@ html, body{
 }
 .DivLinks ul li{
     padding: 3px;
+    font-size: 20px;
 }
 
 .imgHeader img{
@@ -37,9 +40,30 @@ html, body{
     align-items: center;
     flex: 2;
     padding: 50px;
-    margin-top: 20px;
+    margin-top: 1px;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    -webkit-box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69); 
+     box-shadow: 8px 9px 11px 6px rgba(0,0,0,0.69);
+     color: black;
 }
+.ContainerSobre h1{
+    font-size: 30px;
+}
+.ContainerSobre p{
+    font-size: 20px;
+}
+.divBtnContrate button{
+    padding: 20px;
+    border-radius: 80px;
+    border-style: none;
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    color: #ffff;
+    font-size: 15px;
+    width: 200px;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+}
+
 
 /* Seção telefonia*/
 
